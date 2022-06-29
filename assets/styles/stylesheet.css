@@ -136,3 +136,122 @@ footer{
 .date_topics {
     
 }
+
+
+.cajaHeader {
+    background-color: rgb(17, 19, 50);
+    display: flex;
+    flex-direction: column;
+}
+
+.logos {
+    display: flex;
+    flex-direction: row;
+}
+
+.claseLogo {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.imgIsoLogo {
+    width: 80px;
+    height: 35px;
+}
+
+.claseTitulo {
+    width: 600px;
+    margin: 20px;
+    margin-left: 25%;
+}
+
+.imgLogo{
+    width: 600px;
+}
+
+.logearse {
+    background-color: rgb(55, 59, 99);
+    border: 2px solid rgb(168, 227, 1);
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    align-items: center;
+    height: 30px;
+}
+
+.logearse a{
+    color: white;
+    margin-right: 30px;
+    text-decoration: none;
+}
+
+.logearse a:link, a:visited, a:active{
+    text-decoration: none;
+}
+
+.logearse a:hover{
+    color: white;
+    margin-right: 30px;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+@media (max-width: 768px){
+    .cajaHeader {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .logos {
+        display: flex;
+        margin-left: 100px;
+        flex-direction: row;
+    }
+    
+    .claseLogo {
+        display: none;
+    }
+    
+    .claseTitulo {
+        width: auto;
+        display: flex;
+        justify-content: center;       
+        width: auto; 
+    }
+
+    .imgLogo{
+        width: 250px;
+    }
+
+}
+
+@media (max-width: 490px){
+    .cajaHeader {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .logos {
+        display: flex;
+        margin-left: 2px;
+        flex-direction: row;
+    }
+    
+    .claseLogo {
+        display: none;
+    }
+    
+    .claseTitulo {
+        width: auto;
+        display: flex;
+        justify-content: center;       
+        width: auto; 
+    }
+
+    .imgLogo{
+        width: 250px;
+    }
+
+}
+
