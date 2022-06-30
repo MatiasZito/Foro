@@ -125,7 +125,7 @@ footer{
     flex-direction: row;
 }
 
-.img_topics {
+/* .img_topics {
 
 }
 
@@ -135,7 +135,7 @@ footer{
 
 .date_topics {
 
-}
+} */
 
 
 .cajaHeader {
@@ -253,4 +253,74 @@ footer{
         width: 250px;
     }
 
+}
+
+
+
+/* contenido de las preguntas */
+
+.imagenLogoCentro {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.imagenJs {
+    width: 200px;
+    height: 250px;
+    border: solid 1px black;
+
+}
+
+.temaDelForo {
+    display: flex;
+    flex-direction: column;
+    border: solid 1px black;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    border: solid 1px black;
+}
+
+.recuadroDePreguntas {
+    display: flex;
+    flex-direction: row;
+    border: solid 1px black;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.logoDelLenguaje {
+    width: 50px;
+    height: 50px;
+    border: solid 1px black;
+}
+
+.pregunta {
+    display: flex;
+    width: 80%;
+    height: 50px;
+    border: solid 1px black;
+    border-radius: 20px;
+}
+
+.fechaDeLaPregunta {
+    display: flex;
+    width: auto ;
+    border: solid 1px black;
+}
+
+.temaParaEntrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+}
+
+.fechaDeLaPublicacion {
+    display: flex;
+    align-items: center;
+    margin: 2px;
 }
