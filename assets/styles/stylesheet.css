@@ -185,24 +185,15 @@ footer{
 
 .logos {
     display: flex;
-    flex-direction: row;
-}
-
-.claseLogo {
-    display: flex;
     align-items: center;
-    margin: 20px;
-}
-
-.imgIsoLogo {
-    width: 80px;
-    height: 35px;
+    justify-content: center;
 }
 
 .claseTitulo {
+    align-items: center;
+    justify-content: center;
     width: 600px;
     margin: 20px;
-    margin-left: 25%;
 }
 
 .imgLogo{
@@ -247,16 +238,6 @@ footer{
         flex-direction: column;
     }
 
-    .logos {
-        display: flex;
-        margin-left: 100px;
-        flex-direction: row;
-    }
-
-    .claseLogo {
-        display: none;
-    }
-
     .claseTitulo {
         width: auto;
         display: flex;
@@ -281,11 +262,7 @@ footer{
         margin-left: 2px;
         flex-direction: row;
     }
-
-    .claseLogo {
-        display: none;
-    }
-
+    
     .claseTitulo {
         width: auto;
         display: flex;
