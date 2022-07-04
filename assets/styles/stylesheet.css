@@ -10,6 +10,10 @@
     text-decoration: none;
 }
 
+body {
+    background-color: rgb(17, 19, 50);
+}
+
 /*ESQUELETO HEADER*/
 header{
     width: 100%;
@@ -262,20 +266,25 @@ footer{
 .imagenLogoCentro {
     display: flex;
     justify-content: center;
-    margin-bottom: 30px;
+}
+
+.cajaDeLaImagen {
+    border: solid 1px yellow;
+    width: 250px;
+    display: flex;
+    justify-content: center;
 }
 
 .imagenJs {
     width: 200px;
-    height: 250px;
     border: solid 1px black;
-
 }
 
 .temaDelForo {
     display: flex;
     flex-direction: column;
     border: solid 1px black;
+    margin: 50px;
 }
 
 .titulo {
@@ -287,40 +296,52 @@ footer{
 .recuadroDePreguntas {
     display: flex;
     flex-direction: row;
-    border: solid 1px black;
+    border: 1px solid rgb(168, 227, 1);
     justify-content: space-between;
     margin: 10px;
+    height: 70px;
+    background-color: #373B63;
+    border-radius: 5px;
+    align-items: center;
 }
 
 .logoDelLenguaje {
     width: 50px;
     height: 50px;
-    border: solid 1px black;
+    border: 1px solid rgb(168, 227, 1);
+    border-radius: 5px;
+    
 }
 
 .pregunta {
     display: flex;
     width: 80%;
     height: 50px;
-    border: solid 1px black;
-    border-radius: 20px;
+    border: 1px solid rgb(168, 227, 1);
+    border-radius: 5px;
+    color: white;
 }
 
 .fechaDeLaPregunta {
     display: flex;
     width: auto ;
-    border: solid 1px black;
+    color: white;
 }
 
 .temaParaEntrar {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 2px;
+    margin: 3px;
 }
 
 .fechaDeLaPublicacion {
     display: flex;
     align-items: center;
     margin: 2px;
+}
+
+h3 {
+    color: white;
+    font-size: 30px;
 }
