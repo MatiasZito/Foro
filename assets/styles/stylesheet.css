@@ -184,6 +184,10 @@ footer{
     height: 30px;
 }
 
+.logearse a {
+    color: white;
+}
+
 #login{
     font-weight: bold;
     border-radius: 5px;
