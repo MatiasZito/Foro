@@ -102,44 +102,79 @@ footer{
 
 /* Style main */
 
-.body_page {
-    background-color: #0c0f41;
-    width: 100%;
-    padding-top: 5%;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-bottom: 10%;
-    display: flex;
-}
 
-.cover {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.container__article {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.popular_topics {
-    display: flex;
-    flex-direction: row;
-}
-
-/* .img_topics {
+.logo-main {
+  background-color: rgb(55, 59, 99);
+  width: 100px;
+  height: 120px;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 
 }
-
-.question_topics {
-
+.logo-main:hover {
+  border: none;
+  box-shadow: 1px 1px 6px rgb(168, 227, 1);
+}
+#logo-temas-populares {
+  width: 30px;
+  height: 40px;
 }
 
-.date_topics {
+.temas-populares-container {
+  margin: 100px 50px 50px 50px;
+  border-radius: 4px;
+}
 
-} */
+.temas-populares-titulo {
+  background-color: rgb(55, 59, 99);
+  border: 2px solid rgb(168, 227, 1);
+  border-radius: 4px;
+}
+.temas-populares-titulo > h1 {
+  text-align: center;
+}
+.temas-populares-preguntas-container {
+  display: flex;
+  flex-direction: row;
+  padding: 5px 20px 5px 20px;
+  background-color: rgb(55, 59, 99);
+  border: 2px solid rgb(168, 227, 1);
+  margin-top: 20px;
+  border-radius: 4px;
+}
+.temas-populares-logo {
+  display: grid;
+  float: left;
+  padding: 6px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.temas-populares-preguntas {
+  margin-left: 20px;
+  width: 85%;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 10px;
+  border-radius: 4px;
+}
+.temas-populares-preguntas > a {
+  color: black;
+}
+.temas-populares-fecha {
+  margin-left: 20px;
+  padding-top: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.temas-populares-fecha > p {
+  text-align: center;
+  color: white;
+}
+
 
 
 .cajaHeader {
@@ -315,7 +350,7 @@ footer{
     height: 50px;
     border: 1px solid rgb(168, 227, 1);
     border-radius: 5px;
-    
+
 }
 
 .pregunta {
