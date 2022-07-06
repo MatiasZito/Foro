@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
 
 /*ESTRUCTURA PAGINA*/
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -15,16 +15,111 @@ body {
 }
 
 /*ESQUELETO HEADER*/
-header{
+header {
     width: 100%;
     height: 260px;
 }
 
+/*nuevo sin in and login*/
 
+.logearse {
+    height: 400px;
+    width: 100%;
+    margin-right: 3em;
+    padding: 7px;
+}
+.log {
+    margin: 4em;
+}
+.signin {
+    margin: 4em;
+}
+
+.formularioLogIn {
+    display: none;
+    background-color: #e8ebf1;
+    width: 80%;
+    height: 170px;
+    padding: 16px;
+    margin-top: auto;
+    background-color: rgb(17, 19, 50);
+    
+    
+}
+
+.formularioLogIn button {
+    display: block;
+    cursor: pointer;
+    height: 30px;
+    background-color: #395ba6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 1em;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+}
+
+
+#usuarioLog,
+#passwordLog {
+    height: 30px;
+    margin-top: 1em;
+    border: 3px solid rgb(11, 0, 128);
+    width: 100%;
+    text-align: center;
+    box-shadow: 0px 5px 10px rgb(15, 29, 2);
+    display: block;
+}
+
+.formularioSignin {
+    display: none;
+    background-color: #e8ebf1;
+    width: 80%;
+    height: 260px;
+    padding: 16px;
+    background-color: rgb(17, 19, 50);
+
+}
+#nombreSign,
+#usuarioSign,
+#correoSign,
+#passwordSign {
+    height: 30px;
+    margin-top: 1em;
+    border-radius: 5px;
+    border: 3px solid rgb(11, 0, 128);
+    box-shadow: 0px 5px 10px rgb(15, 29, 2);
+    width: 100%;
+    display: block;
+    text-align: center;
+
+}
+
+.formularioSignin button {
+    width: 100%;
+    height: 30px;
+    background-color: #395ba6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 1em;
+    cursor: pointer;
+    text-align: center;
+ }
+
+.loge:hover .formularioSignin {
+    display: block;
+}
+
+.log:hover .formularioLogIn {
+    display: block;
+}
 
 /*FOOTER*/
 
-footer{
+footer {
     width: 100%;
     padding: 50px 0px;
     background-color: #373B63;
@@ -34,7 +129,7 @@ footer{
     bottom: 0;
 }
 
-.container__footer{
+.container__footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -42,17 +137,17 @@ footer{
     margin: auto;
 }
 
-.box__footer{
+.box__footer {
     display: flex;
     flex-direction: column;
     padding: 40px;
 }
 
-.box__footer .logo img{
+.box__footer .logo img {
     width: 80px;
 }
 
-.box__footer .terms{
+.box__footer .terms {
     max-width: 350px;
     margin-top: 20px;
     font-weight: 500;
@@ -60,40 +155,40 @@ footer{
     font-size: 18px;
 }
 
-.box__footer h2{
+.box__footer h2 {
     margin-bottom: 30px;
     color: #727272;
     font-weight: 700;
 }
 
 
-.box__footer a{
+.box__footer a {
     margin-top: 10px;
     color: #dadada;
     font-weight: 600;
 }
 
-.box__footer a:hover{
+.box__footer a:hover {
     opacity: 0.8;
 }
 
-.box__footer a .fab{
+.box__footer a .fab {
     font-size: 20px;
 }
 
-.box__copyright{
+.box__copyright {
     max-width: 1200px;
     margin: auto;
     text-align: center;
     padding: 0px 40px;
 }
 
-.box__copyright p{
+.box__copyright p {
     margin-top: 20px;
     color: #7a7a7a;
 }
 
-.box__copyright hr{
+.box__copyright hr {
     border: none;
     height: 1px;
     background-color: #7a7a7a;
@@ -104,76 +199,85 @@ footer{
 
 
 .logo-main {
-  background-color: rgb(55, 59, 99);
-  width: 150px;
-  height: 170px;
-  border: 2px solid black;
-  border-radius: 10px;
-  padding: 5px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+    background-color: rgb(55, 59, 99);
+    width: 150px;
+    height: 170px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 
 }
+
 .logo-main:hover {
-  border: none;
-  box-shadow: 1px 1px 6px rgb(168, 227, 1);
+    border: none;
+    box-shadow: 1px 1px 6px rgb(168, 227, 1);
 }
+
 #logo-temas-populares {
-  width: 30px;
-  height: 40px;
+    width: 30px;
+    height: 40px;
 }
 
 .temas-populares-container {
-  margin: 100px 50px 50px 50px;
-  border-radius: 4px;
+    margin: 100px 50px 50px 50px;
+    border-radius: 4px;
 }
 
 .temas-populares-titulo {
-  background-color: rgb(55, 59, 99);
-  border: 2px solid rgb(168, 227, 1);
-  border-radius: 4px;
+    background-color: rgb(55, 59, 99);
+    border: 2px solid rgb(168, 227, 1);
+    border-radius: 4px;
 }
-.temas-populares-titulo > h1 {
-  text-align: center;
-  color: rgba(255, 255, 255, 1);
+
+.temas-populares-titulo>h1 {
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
 }
+
 .temas-populares-preguntas-container {
-  display: flex;
-  flex-direction: row;
-  padding: 5px 20px 5px 20px;
-  background-color: rgb(55, 59, 99);
-  border: 2px solid rgb(168, 227, 1);
-  margin-top: 20px;
-  border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    padding: 5px 20px 5px 20px;
+    background-color: rgb(55, 59, 99);
+    border: 2px solid rgb(168, 227, 1);
+    margin-top: 20px;
+    border-radius: 4px;
 }
+
 .temas-populares-logo {
-  display: grid;
-  float: left;
-  padding: 6px;
-  margin-top: auto;
-  margin-bottom: auto;
+    display: grid;
+    float: left;
+    padding: 6px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
+
 .temas-populares-preguntas {
-  margin-left: 20px;
-  width: 85%;
-  height: auto;
-  background-color: rgba(255, 255, 255, 0.7);
-  padding: 10px;
-  border-radius: 4px;
+    margin-left: 20px;
+    width: 85%;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+    border-radius: 4px;
 }
-.temas-populares-preguntas > a {
-  color: black;
+
+.temas-populares-preguntas>a {
+    color: black;
 }
+
 .temas-populares-fecha {
-  margin-left: 20px;
-  padding-top: 20px;
-  margin-top: auto;
-  margin-bottom: auto;
+    margin-left: 20px;
+    padding-top: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
-.temas-populares-fecha > p {
-  text-align: center;
-  color: white;
+
+.temas-populares-fecha>p {
+    text-align: center;
+    color: white;
 }
 
 
@@ -196,7 +300,7 @@ footer{
     margin: 20px;
 }
 
-.imgLogo{
+.imgLogo {
     width: 600px;
 }
 
@@ -216,29 +320,29 @@ footer{
 
 }
 
-.logearse a:hover{
+.logearse a:hover {
     box-shadow: 1px 1px 6px rgb(168, 227, 1);
 }
 
-#login{
+.in {
     font-weight: bold;
     border-radius: 5px;
-    border: 2px solid rgba(0,0,0,0.3);
-    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
     color: white;
     background-color: rgb(17, 19, 50);
 }
 
-#signin{
+.signin {
     font-weight: bold;
     border-radius: 5px;
-    border: 2px solid rgba(0,0,0,0.3);
-    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
     color: white;
     background-color: rgb(17, 19, 50);
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
     .cajaHeader {
         display: flex;
         flex-direction: column;
@@ -251,13 +355,13 @@ footer{
         width: auto;
     }
 
-    .imgLogo{
+    .imgLogo {
         width: 250px;
     }
 
 }
 
-@media (max-width: 490px){
+@media (max-width: 490px) {
     .cajaHeader {
         display: flex;
         flex-direction: column;
@@ -268,7 +372,7 @@ footer{
         margin-left: 2px;
         flex-direction: row;
     }
-    
+
     .claseTitulo {
         width: auto;
         display: flex;
@@ -276,7 +380,7 @@ footer{
         width: auto;
     }
 
-    .imgLogo{
+    .imgLogo {
         width: 250px;
     }
 
@@ -347,7 +451,7 @@ footer{
 
 .fechaDeLaPregunta {
     display: flex;
-    width: auto ;
+    width: auto;
     color: white;
 }
 
