@@ -1,0 +1,370 @@
+/*FONTS PAGINA*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+/*ESTRUCTURA PAGINA*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(17, 19, 50);
+}
+
+/*ESQUELETO HEADER*/
+header{
+    width: 100%;
+    height: 260px;
+}
+
+
+
+/*FOOTER*/
+
+footer{
+    width: 100%;
+    padding: 50px 0px;
+    background-color: #373B63;
+    background-size: cover;
+    /*position: absolute;
+    position: fixed;*/
+    bottom: 0;
+}
+
+.container__footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.box__footer{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.box__footer .logo img{
+    width: 80px;
+}
+
+.box__footer .terms{
+    max-width: 350px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: #dadada;
+    font-size: 18px;
+}
+
+.box__footer h2{
+    margin-bottom: 30px;
+    color: #727272;
+    font-weight: 700;
+}
+
+
+.box__footer a{
+    margin-top: 10px;
+    color: #dadada;
+    font-weight: 600;
+}
+
+.box__footer a:hover{
+    opacity: 0.8;
+}
+
+.box__footer a .fab{
+    font-size: 20px;
+}
+
+.box__copyright{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+}
+
+.box__copyright p{
+    margin-top: 20px;
+    color: #7a7a7a;
+}
+
+.box__copyright hr{
+    border: none;
+    height: 1px;
+    background-color: #7a7a7a;
+}
+
+
+/* Style main */
+
+
+.logo-main {
+  background-color: rgb(55, 59, 99);
+  width: 150px;
+  height: 170px;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.logo-main:hover {
+  border: none;
+  box-shadow: 1px 1px 6px rgb(168, 227, 1);
+}
+#logo-temas-populares {
+  width: 30px;
+  height: 40px;
+}
+
+.temas-populares-container {
+  margin: 100px 50px 50px 50px;
+  border-radius: 4px;
+}
+
+.temas-populares-titulo {
+  background-color: rgb(55, 59, 99);
+  border: 2px solid rgb(168, 227, 1);
+  border-radius: 4px;
+}
+.temas-populares-titulo > h1 {
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+.temas-populares-preguntas-container {
+  display: flex;
+  flex-direction: row;
+  padding: 5px 20px 5px 20px;
+  background-color: rgb(55, 59, 99);
+  border: 2px solid rgb(168, 227, 1);
+  margin-top: 20px;
+  border-radius: 4px;
+}
+.temas-populares-logo {
+  display: grid;
+  float: left;
+  padding: 6px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.temas-populares-preguntas {
+  margin-left: 20px;
+  width: 85%;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 10px;
+  border-radius: 4px;
+}
+.temas-populares-preguntas > a {
+  color: black;
+}
+.temas-populares-fecha {
+  margin-left: 20px;
+  padding-top: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.temas-populares-fecha > p {
+  text-align: center;
+  color: white;
+}
+
+
+.cajaHeader {
+    background-color: rgb(17, 19, 50);
+    display: flex;
+    flex-direction: column;
+}
+
+.logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.claseTitulo {
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    margin: 20px;
+}
+
+.imgLogo{
+    width: 600px;
+}
+
+.logearse {
+    background-color: rgb(55, 59, 99);
+    border: 2px solid rgb(168, 227, 1);
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    align-items: center;
+    height: 30px;
+}
+
+.logearse a {
+    color: white;
+    margin-right: 10px;
+
+}
+
+.logearse a:hover{
+    box-shadow: 1px 1px 6px rgb(168, 227, 1);
+}
+
+#login{
+    font-weight: bold;
+    border-radius: 5px;
+    border: 2px solid rgba(0,0,0,0.3);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    color: white;
+    background-color: rgb(17, 19, 50);
+}
+
+#signin{
+    font-weight: bold;
+    border-radius: 5px;
+    border: 2px solid rgba(0,0,0,0.3);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    color: white;
+    background-color: rgb(17, 19, 50);
+}
+
+@media (max-width: 768px){
+    .cajaHeader {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .claseTitulo {
+        width: auto;
+        display: flex;
+        justify-content: center;
+        width: auto;
+    }
+
+    .imgLogo{
+        width: 250px;
+    }
+
+}
+
+@media (max-width: 490px){
+    .cajaHeader {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logos {
+        display: flex;
+        margin-left: 2px;
+        flex-direction: row;
+    }
+    
+    .claseTitulo {
+        width: auto;
+        display: flex;
+        justify-content: center;
+        width: auto;
+    }
+
+    .imgLogo{
+        width: 250px;
+    }
+
+}
+
+
+
+/* contenido de las preguntas */
+
+.imagenLogoCentro {
+    display: flex;
+    justify-content: center;
+}
+
+.cajaDeLaImagen {
+    border: solid 1px yellow;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+.imagenJs {
+    width: 200px;
+    border: solid 1px black;
+}
+
+.temaDelForo {
+    display: flex;
+    flex-direction: column;
+    border: solid 1px black;
+    margin: 50px;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    border: solid 1px black;
+}
+
+.recuadroDePreguntas {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgb(168, 227, 1);
+    justify-content: space-between;
+    margin: 10px;
+    height: 70px;
+    background-color: #373B63;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.logoDelLenguaje {
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(168, 227, 1);
+    border-radius: 5px;
+
+}
+
+.pregunta {
+    display: flex;
+    width: 80%;
+    height: 50px;
+    border: 1px solid rgb(168, 227, 1);
+    border-radius: 5px;
+    color: white;
+}
+
+.fechaDeLaPregunta {
+    display: flex;
+    width: auto ;
+    color: white;
+}
+
+.temaParaEntrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+}
+
+.fechaDeLaPublicacion {
+    display: flex;
+    align-items: center;
+    margin: 2px;
+}
+
+h3 {
+    color: white;
+    font-size: 30px;
+}
