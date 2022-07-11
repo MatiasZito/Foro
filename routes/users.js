@@ -12,7 +12,7 @@ router.get('/login', function(req, res, next) {
 });
 
 router.get('/signin', function(req, res, next) {
-  res.render('login');
+  res.render('signin');
 });
 
 module.exports = router;
