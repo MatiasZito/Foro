@@ -26,12 +26,10 @@ header{
 
 footer{
     width: 100%;
-    padding: 50px 0px;
     background-color: #373B63;
-    background-size: cover;
     /*position: absolute;
     position: fixed;*/
-    bottom: 0;
+    position: absolute;
 }
 
 .container__footer{
@@ -71,6 +69,7 @@ footer{
     margin-top: 10px;
     color: #dadada;
     font-weight: 600;
+    text-decoration: none;
 }
 
 .box__footer a:hover{
@@ -173,10 +172,17 @@ footer{
   background-color: rgba(255, 255, 255, 0.7);
   padding: 10px;
   border-radius: 4px;
+  
 }
 .temas-populares-preguntas > a {
   color: black;
+  
 }
+
+.temas-populares-preguntas-link {
+    text-decoration: none;
+}
+
 .temas-populares-fecha {
   margin-left: 20px;
   padding-top: 20px;
