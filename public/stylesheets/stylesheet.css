@@ -225,9 +225,7 @@ footer{
 .logearse a {
     color: white;
     margin-right: 10px;
-
 }
-
 .logearse a:hover{
     box-shadow: 1px 1px 6px rgb(168, 227, 1);
 }
