@@ -8,12 +8,11 @@ router.get('/', function(req, res, next) {
 
 
 router.get('/login', function(req, res, next) {
-  res.send('login form');
-  //res.render('login');
+  res.render('login');
 });
 
 router.get('/signin', function(req, res, next) {
-  res.send('sign in form');
+  res.render('login');
 });
 
 module.exports = router;
