@@ -106,8 +106,8 @@ footer{
   background-color: rgb(55, 59, 99);
   width: 150px;
   height: 170px;
-  border: 2px solid black;
   border-radius: 10px;
+  border: 2px solid black;
   padding: 5px;
   display: block;
   margin-left: auto;
@@ -121,13 +121,19 @@ footer{
   background-color: rgb(55, 59, 99);
   width: 150px;
   height: 170px;
-  border: 2px solid black;
+  border: 1px solid black;
   box-shadow: 1px 1px 6px rgb(168, 227, 1);
   border-radius: 10px;
   padding: 5px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+#logo-js-link {
+width: 150px;
+display: block;
+margin-left: auto;
+margin-right: auto;
 }
 
 #logo-temas-populares {
@@ -178,11 +184,17 @@ footer{
   color: black;
   
 }
+<<<<<<< HEAD
 
 .temas-populares-preguntas-link {
     text-decoration: none;
 }
 
+=======
+.temas-populares-preguntas-link {
+  text-decoration: none;
+}
+>>>>>>> master
 .temas-populares-fecha {
   margin-left: 20px;
   padding-top: 20px;
@@ -252,6 +264,16 @@ footer{
     box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
     color: white;
     background-color: rgb(17, 19, 50);
+}
+
+.form-title {
+  color: white;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+.btn-end-form {
+  margin-bottom: 40px;
+  margin-top: 10px;
 }
 
 @media (max-width: 768px){

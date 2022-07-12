@@ -1,8 +1,9 @@
 <%- include('head'); %>
 
-<body>
-  <div class="container col col-lg-5 text-center">
+  <main class="container col col-lg-5 text-center">
+    <form form action="/validar-signin" method="post">
 
+<<<<<<< HEAD
      <h1 class="h3 mb-3 fw-normal text-white">Please sign in</h1>
 
     <div class="mb-3 form-floating">
@@ -24,3 +25,26 @@
  
      
 <%- include('footer'); %>
+=======
+       <h1 class="h3 mb-3 fw-normal form-title">Log in to your account</h1>
+
+      <div class="form-floating">
+        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+        <label for="floatingInput">Email address</label>
+      </div>
+      <div class="form-floating">
+        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+        <label for="floatingPassword">Password</label>
+      </div>
+
+      <div class="checkbox mb-3">
+        <label>
+          <input type="checkbox" value="remember-me" color > Remember me
+        </label>
+      </div>
+      <input type="submit" class="btn btn-primary btn-end-form" value="Log in">
+    </form>
+  </main>
+
+<%- include('footer'); %>
+>>>>>>> master

@@ -1,4 +1,5 @@
 <%- include('head'); %>
+<<<<<<< HEAD
 <body>
     <div class="container col-lg-6 text-center">
         <label for="basic-url" class="form-label text-center text-white">Signin</label>
@@ -26,3 +27,35 @@
     
     <%- include('footer'); %>
   
+=======
+
+    <main class="container col col-lg-5 text-center">
+      <form action="/validar-signin" method="post">
+
+        <label for="basic-url" class="form-label form-title">Please, enter your data</label>
+        <div class="input-group mb-3">
+            <span class="input-group-text col col-lg-3" id="basic-addon3">Your Name</span>
+            <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text col col-lg-3" id="basic-addon3">Your Surname</span>
+            <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text col col-lg-3" id="basic-addon3">Nickname</span>
+            <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text col col-lg-3" id="basic-addon3">Email</span>
+            <input type="email" name="email" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text col col-lg-3" id="basic-addon3">Password</span>
+            <input type="password" name="password" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+        </div>
+        <input type="submit" class="btn btn-primary btn-end-form" value="Sign in">
+      </form>
+    </main>
+
+<%- include('footer'); %>
+>>>>>>> master
