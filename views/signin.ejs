@@ -1,28 +1,28 @@
 <%- include('head'); %>
 
     <main class="container col col-lg-5 text-center">
-      <form action="/validar-signin" method="post">
+      <form action="/users/validar-signin" method="post">
 
         <label for="basic-url" class="form-label form-title">Please, enter your data</label>
         <div class="input-group mb-3">
-            <span class="input-group-text col col-lg-3" id="basic-addon3">Your Name</span>
-            <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+            <span class="input-group-text col col-lg-4" id="text-name">Your Name</span>
+            <input type="text" name="name" class="form-control" id="input-name" aria-describedby="basic-addon3">
         </div>
         <div class="input-group mb-3">
-            <span class="input-group-text col col-lg-3" id="basic-addon3">Your Surname</span>
-            <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+            <span class="input-group-text col col-lg-4" id="text-surname">Your Surname</span>
+            <input type="text" name="surname" class="form-control" id="input-surname" aria-describedby="basic-addon3">
         </div>
         <div class="input-group mb-3">
-            <span class="input-group-text col col-lg-3" id="basic-addon3">Nickname</span>
-            <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+            <span class="input-group-text col col-lg-4" id="text-nickname">Nickname</span>
+            <input type="text" name="nickname" class="form-control" id="input-nickname" aria-describedby="basic-addon3">
         </div>
         <div class="input-group mb-3">
-            <span class="input-group-text col col-lg-3" id="basic-addon3">Email</span>
-            <input type="email" name="email" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+            <span class="input-group-text col col-lg-4" id="text-email">Email</span>
+            <input type="email" name="email" class="form-control" name="email" id="input-email" aria-describedby="basic-addon3">
         </div>
         <div class="input-group mb-3">
-            <span class="input-group-text col col-lg-3" id="basic-addon3">Password</span>
-            <input type="password" name="password" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+            <span class="input-group-text col col-lg-4" id="text-password">Password</span>
+            <input type="password" name="password" class="form-control" id="input-password" aria-describedby="basic-addon3">
         </div>
         <input type="submit" class="btn btn-primary btn-end-form" value="Sign in">
       </form>
