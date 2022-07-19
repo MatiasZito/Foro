@@ -38,6 +38,7 @@ footer{
     justify-content: space-between;
     max-width: 1200px;
     margin: auto;
+    height: 240px;
 }
 
 .box__footer{
@@ -178,11 +179,11 @@ margin-right: auto;
   background-color: rgba(255, 255, 255, 0.7);
   padding: 10px;
   border-radius: 4px;
-  
+
 }
 .temas-populares-preguntas > a {
   color: black;
-  
+
 }
 
 .temas-populares-preguntas-link {
@@ -399,4 +400,32 @@ margin-right: auto;
 h3 {
     color: white;
     font-size: 30px;
+}
+
+.input-group-text {
+  margin-right: -40px;
+  background-color: #373B63;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: #373B63;
+  border: none;
+  margin-top: 20px;
+}
+
+.form-control {
+  background-color: rgb(210, 210, 210);
+}
+
+
+#validar-signin-texto-p {
+  color: white;
+  font-size: 22px;
+  margin-top: -10px;
+}
+#validar-signin-link {
+  font-size: 20px;
 }
