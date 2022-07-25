@@ -1,5 +1,9 @@
 var IndexController = {};
 
+IndexController.index = function(req, res, next) {
+  res.render('index');
+};
+
 IndexController.temas = function(req, res, next) {
     let path = req.path;
     let tema = path.split('/')[2];
