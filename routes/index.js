@@ -1,16 +1,13 @@
 var express = require('express');
 var router = express.Router();
 
+var index = require('../controller/IndexController');
+
 /* GET home page. */
 router.get('/', function(req, res, next) {
   res.render('index');
 });
 
-router.get('/tema/*', function(req, res, next) {
-  let path = req.path;
-  let tema = path.split('/')[2];
-  console.log(tema);
-  res.render('pagina_tema', {tema:tema});
-});
+router.get('/tema/*', index.temas);
 
 module.exports = router;
