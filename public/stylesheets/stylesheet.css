@@ -114,22 +114,33 @@ footer{
   margin-left: auto;
   margin-right: auto;
 }
-.logo-main:hover {
-  border: none;
-  box-shadow: 1px 1px 6px rgb(168, 227, 1);
+
+#logo-main-javascript {
+    box-shadow: 1px 1px 6px rgb(168, 227, 1);
 }
-#logo-main-js {
-  background-color: rgb(55, 59, 99);
-  width: 150px;
-  height: 170px;
-  border: 1px solid black;
-  box-shadow: 1px 1px 6px rgb(168, 227, 1);
-  border-radius: 10px;
-  padding: 5px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+
+#logo-main-html {
+    box-shadow: 1px 1px 6px rgb(255, 34, 34);
 }
+
+#logo-main-css {
+    box-shadow: 1px 1px 6px rgb(6, 44, 255);
+}
+
+#logo-js:hover {
+    box-shadow: 1px 1px 6px rgb(168, 227, 1);
+}
+
+#logo-html:hover {
+    box-shadow: 1px 1px 6px rgb(255, 34, 34);
+}
+
+#logo-css:hover {
+    box-shadow: 1px 1px 6px rgb(6, 44, 255);
+}
+
+
+
 #logo-js-link {
 width: 150px;
 display: block;
@@ -428,4 +439,14 @@ h3 {
 }
 #validar-signin-link {
   font-size: 20px;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container {
+    margin-right: 20px;
 }
