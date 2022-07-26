@@ -1,9 +1,27 @@
+let User = require('../model/User')
 
 var AuthController = {}
 
 AuthController.login = function (req, res, next) {
     res.render('login');
 }
+
+
+AuthController.validar_login = function (req, res, next) {
+    console.log(req.body);
+    let email = req.body.email;
+    let password = req.body.password;
+    console.log (email,password);
+
+    let uid = User.auth(email,password);
+    if (uid) {
+        res.render('validar-login');
+    } else {
+        res.send('not logged');
+    }
+}
+
+
 AuthController.signin = function (req, res, next) {
     res.render('signin');
 }
