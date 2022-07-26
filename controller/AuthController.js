@@ -7,6 +7,7 @@ AuthController.login = function (req, res, next) {
 AuthController.signin = function (req, res, next) {
     res.render('signin');
 }
+
 AuthController.validar_sign_in = function (req, res, next) {
     let name = req.body.name;
     let surname = req.body.surname;
