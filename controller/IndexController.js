@@ -40,6 +40,7 @@ IndexController.temas = function(req, res, next) {
     QuestionModel.find().exec(function(err, question){
         if( err ){ console.log('Error: ', err); return; }
         console.log(question);
+        console.log(question[0].title);
         res.render('../views/pagina_tema', {question: question, tema:tema} ); 
     });
 };

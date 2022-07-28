@@ -20,12 +20,12 @@
         </div>
         <div class="temas-populares-preguntas">
           <a class="temas-populares-preguntas-link" href="#">
-            <h2><%=question.title%></h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At fugit suscipit excepturi magni assumenda ducimus, praesentium impedit aut, obcaecati, consequuntur voluptatem voluptates quae! Delectus officiis suscipit eaque pariatur dolore eum!</p>
+            <h2><%=question[0].title%></h2>
+            <p><%=question[0].question_content%></p>
           </a>
         </div>
         <div class="temas-populares-fecha">
-          <p>21/02/2018</p>
+          <p><%=question[0].question_date%></p>
         </div>
       </div>
     </div>
