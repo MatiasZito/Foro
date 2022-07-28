@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 
 var index = require('../controller/IndexController');
-var question = require('../controller/QuestionController.js');
+//var question = require('../controller/QuestionController.js');
 
 
 /* GET home page. */

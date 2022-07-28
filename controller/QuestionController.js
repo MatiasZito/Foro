@@ -18,7 +18,7 @@ var questionController = {};
 questionController.show = function(req, res){
     console.log('ruta:', req.path);
     let ruta = req.path;
-    let id = ruta.split("/")[2];
+    let id = ruta.split("/")[3];
     console.log(id);
 
     QuestionModel.findOne({user_id:id}).exec(function(err, question){
