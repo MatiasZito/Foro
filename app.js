@@ -12,7 +12,7 @@ var authRouter = require('./routes/auth');
 
 var app = express();
 
-var mongoDB = 'mongodb://127.0.0.1:27017/question';
+var mongoDB = 'mongodb://127.0.0.1:27017/foro';
 
 mongoose.connect(mongoDB);
 mongoose.Promise = global.Promise;

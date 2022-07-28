@@ -36,12 +36,13 @@ IndexController.temas = function(req, res, next) {
     let path = req.path;
     let tema = path.split('/')[2];
     console.log(tema);
-    
+  
     QuestionModel.find().exec(function(err, question){
         if( err ){ console.log('Error: ', err); return; }
-        console.log(question)
+        console.log(question);
         res.render('../views/pagina_tema', {question: question, tema:tema} ); 
     });
 };
+
 
   module.exports = IndexController;

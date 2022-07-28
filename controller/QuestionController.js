@@ -15,6 +15,8 @@ var questionController = {};
 };
 */
 
+
+
 questionController.show = function(req, res){
     console.log('ruta:', req.path);
     let ruta = req.path;
