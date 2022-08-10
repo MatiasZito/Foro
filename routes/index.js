@@ -1,4 +1,5 @@
 var express = require('express');
+const IndexController = require('../controller/IndexController');
 var router = express.Router();
 
 var index = require('../controller/IndexController');
@@ -7,6 +8,7 @@ var index = require('../controller/IndexController');
 
 /* GET home page. */
 router.get('/', index.index);
+//router.get('/tema/*', IndexController.temas);
 
 router.get('/tema/*', index.list);
 
